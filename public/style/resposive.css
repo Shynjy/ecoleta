@@ -1,0 +1,101 @@
+@media (max-width: 900px) {
+    /* Index */
+    #page-home {
+        background-position-x: 70vw;
+    }
+    #page-home .content {
+        align-items: center;
+        text-align: center;
+    }
+    #page-home header {
+        flex-direction: column;
+    }
+    #page-home header a {
+        position: absolute;
+        bottom: 48px;
+    }
+    #page-home main {
+        align-items: center;
+        padding-bottom: 40px;
+    }
+    /*  */
+    /*  */
+    /* Search Results */
+    body::after {
+        top: 280px;
+    }
+    main .cards {
+        grid-template-columns: 1fr 1fr;
+    }
+    main .card .img {
+        height: 180px;
+    }
+    /*  */
+    /*  */
+    /* Create Point */
+    #page-create-point .field-group {
+        flex-direction: column;
+    }
+    #page-create-point .field {
+        margin-left: 0;
+    }
+    form legend {
+        display: block;
+        /* flex-direction: column; */
+    }
+    .items-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 1700px) {
+    /* Index */
+    #page-home {
+        background-position-x: 40vw;
+    }
+}
+
+@media (max-height: 760px) {
+    /* Index */
+    #page-home {
+        background-position-y: 200px;
+    }
+}
+
+@media (max-width: 600px) {
+    /* Index */
+    #page-home main h1 {
+        font-size: 40px;
+    }
+    /* Modal */
+    #modal .content {
+        width: 340px;
+    }
+    /*  */
+    /*  */
+    /* Search Results */
+    body::after {
+        top: 300px;
+    }
+    main .cards {
+        grid-template-columns: 1fr;
+    }
+    main .card .img {
+        height: 230px;
+    }
+    /*  */
+    /*  */
+    /* Create Point */
+    form {
+        padding: 64px 30px;
+    }
+}
+
+@media (max-width: 320px) {
+    /*  */
+    /*  */
+    /* Modal */
+    #modal .content {
+        width: 300px;
+    }
+}
